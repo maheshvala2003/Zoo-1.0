@@ -1,0 +1,23 @@
+Bengal Tiger
+Weight: 180 to 260 kg
+Height: 0.9 to 1.2 meters
+Habitat: Indian subcontinent
+Main Diet: Carnivore
+Range: Various regions in Asia
+Description: The Bengal tiger is a subspecies of tiger native to the Indian subcontinent. They are known for their striking orange coat with black stripes and are the largest among tiger subspecies.
+
+Gorilla
+Weight: 135 to 180 kg (males), 68 to 113 kg (females)
+Height: Up to 1.7 meters (males), Up to 1.5 meters (females)
+Habitat: Forests of Central Africa
+Main Diet: Herbivore (primarily leaves, stems, and fruits)
+Range: Central Africa
+Description: Gorillas are powerful and intelligent primates known for their strength and social structure.
+
+Red Kangaroo
+Weight: 35 to 90 kg
+Height: Up to 1.8 meters
+Habitat: Grasslands and deserts of Australia
+Main Diet: Herbivore (grasses and plants)
+Range: Australia
+Description: Red kangaroos are marsupials and the largest marsupial species. They are known for their long legs and powerful hindquarters, which allow them to hop at high speeds.

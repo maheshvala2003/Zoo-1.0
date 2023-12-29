@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <style>
+        #slider.owl-theme .owl-nav
+        {
+            position: absolute;
+            top: 50%;
+            margin: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #slider.owl-carousel .owl-nav button.owl-prev
+        {
+            margin-left: 40px;
+        }
+        #slider.owl-carousel .owl-nav button.owl-next
+        {
+            margin-right: 40px;
+        }
+        #slider.owl-carousel .owl-nav button
+        {
+            height: 40px;
+            width: 40px;
+            background-color: rgba(0, 0, 0, 0.7)!important;
+            color: white!important;
+            border-radius: 50%!important;
+            transition: .4s;
+        }
+        #slider.owl-carousel .owl-nav button:hover
+        {
+            background-color: rgba(255, 255, 255, 0.7)!important;
+            color: black!important;
+        }
+
+        #slider.owl-theme .owl-dots
+        {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+        }
+        #slider.owl-theme .owl-dots .owl-dot span
+        {
+            width: 15px;
+            height: 2px;
+            background-color: red;
+            transition: .4s;
+        }
+        #slider.owl-theme .owl-dots .owl-dot.active span
+        {
+            background-color: yellow;
+            width: 30px;
+            height: 4px;
+        }
+        #slider.owl-theme .owl-dots .owl-dot:hover span
+        {
+            background-color: yellow;
+        }
+        .flex
+        {
+            display: flex;
+        }
+        *{
+            margin: 0;
+        }
+        .box
+        {
+            background-color: antiquewhite;
+            padding: 30px;
+            text-align: center;
+            transform: scale(0.7);
+            transition: .4s;
+            opacity: 0.5;
+        }
+        #testimonial.owl-carousel .owl-item.active.center .box
+        {
+            transform: scale(1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            opacity: 1;
+        }
+        #testimonial.owl-carousel .owl-stage-outer
+        {
+            padding: 50px 0;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="owl-carousel owl-theme" id="slider">
+        <div> <img src="image/img1.jfif" alt=""> </div>
+        <div> <img src="image/img2.jfif" alt=""> </div>
+        <div> <img src="image/img3.jfif" alt=""> </div>
+        <div> <img src="image/img4.jfif" alt=""> </div>
+        <div> <img src="image/img5.jfif" alt=""> </div>
+        <div> <img src="image/img6.jfif" alt=""> </div>
+        <div> <img src="image/img7.jfif" alt=""> </div>
+        <div> <img src="image/img8.jfif" alt=""> </div>
+    </div>
+
+    <hr>
+    <div class="owl-carousel owl-theme" id="testimonial">
+            <div class="box">
+                <h1>slide 1</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+            <div class="box">
+                <h1>slide 2</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+            <div class="box">
+                <h1>slide 3</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+            <div class="box">
+                <h1>slide 4</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+            <div class="box">
+                <h1>slide 5</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+            <div class="box">
+                <h1>slide 6</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae aspernatur, debitis fugiat ut alias totam nobis iste autem ea, animi soluta porro iure quos temporibus, quam non natus laborum blanditiis.
+            </div>
+    </div> 
+
+
+    
+    
+
+   <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#testimonial").owlCarousel({
+                // items:1, 
+                nav: true,
+                loop: true,
+                center: true,
+                margin: 25,
+            });
+        })
+    </script>
+
+</body>
+</html>
