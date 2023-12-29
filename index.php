@@ -425,7 +425,6 @@ if (isset($_POST['logout'])) {
     <br><br>
     <!-- -------------------------------------------------------------------------------------------- -->
 
-
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xl-4 mb-4 p-3">
