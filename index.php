@@ -1,6 +1,6 @@
 <?php //hello
 
-include "database/connect.php";
+include "database/connect.php"; //Mahesh
 
 session_start();
 
