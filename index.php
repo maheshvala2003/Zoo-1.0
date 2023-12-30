@@ -7,7 +7,7 @@ session_start();
 if (isset($_POST['logout'])) {
     session_unset();
     session_destroy();
-    header("location:login.php"); 
+    header("location:login.php");
 }
 
 ?>
@@ -27,30 +27,26 @@ if (isset($_POST['logout'])) {
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/custom.css">
 
     <!-- JS -->
     <script src="js/script.js"></script>
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+
 
     <!-- JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- ICON PACK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- OWL CAROUSEL -->
     <link rel="stylesheet" href="css/animate.min.css">
@@ -66,8 +62,7 @@ if (isset($_POST['logout'])) {
         <nav class="navbar navbar-expand-lg navbar-success bg-custom">
             <div id="nav-container" class="container">
                 <a class="navbar-brand" id="logo" href="">SAFARI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -92,8 +87,7 @@ if (isset($_POST['logout'])) {
                         </form>
                     </ul>
                 </div>
-                <a class="nav-link" href="ticket.php"><button
-                        class="btn btn-warning text-primary fw-bold">Ticket</button></a>
+                <a class="nav-link" href="ticket.php"><button class="btn btn-warning text-primary fw-bold">Ticket</button></a>
             </div>
         </nav>
     </div>
@@ -118,8 +112,7 @@ if (isset($_POST['logout'])) {
                         <p class="pe-lg-4 mb-4 color-1">Explore the world of exotic animals, thrilling adventures, and
                             unforgettable memories. Get ready for an exciting journey into the wild and witness the
                             beauty of nature like never before!</p>
-                        <a href="#species" class="btn btn-warning fw-bold fs-5 text-primary">Explore &nbsp;<span
-                                class="fa fa-angle-double-right"></span></a>
+                        <a href="#species" class="btn btn-warning fw-bold fs-5 text-primary">Explore &nbsp;<span class="fa fa-angle-double-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -152,8 +145,7 @@ if (isset($_POST['logout'])) {
                     </div>
                 </div>
                 <div class="lc-block">
-                    <a class="btn btn-warning fw-bold text-primary mt-2" href="animal.php"
-                        role="button">Animals&nbsp;<span class="fa fa-angle-double-right"></span></a>
+                    <a class="btn btn-warning fw-bold text-primary mt-2" href="animal.php" role="button">Animals&nbsp;<span class="fa fa-angle-double-right"></span></a>
                 </div>
             </div>
         </div>
@@ -178,8 +170,7 @@ if (isset($_POST['logout'])) {
                 <div class="card bg-warning">
                     <div class="card-body text-center">
                         <i class="fas fa-area-chart fa-4x mb-3 text-danger"></i>
-                        <h1 class="card-title fw-bold text-font text-primary-emphasis"><span
-                                class="count">509</span><span class="fs-5"> ac</span></h1>
+                        <h1 class="card-title fw-bold text-font text-primary-emphasis"><span class="count">509</span><span class="fs-5"> ac</span></h1>
                         <p class="card-text color-1">Zoo Area</p>
                     </div>
                 </div>
@@ -189,8 +180,7 @@ if (isset($_POST['logout'])) {
                 <div class="card bg-warning">
                     <div class="card-body text-center">
                         <i class="fas fa-person-hiking fa-4x mb-3 text-danger"></i>
-                        <h1 class="card-title fw-bold text-font text-primary-emphasis"><span
-                                class="count">264</span><span class="fs-5"> k</span></h1>
+                        <h1 class="card-title fw-bold text-font text-primary-emphasis"><span class="count">264</span><span class="fs-5"> k</span></h1>
                         <p class="card-text color-1">Visitor</p>
                     </div>
                 </div>
@@ -491,12 +481,8 @@ if (isset($_POST['logout'])) {
 
     <!-- SCRIPT COUNTER UP -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
-        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         $('.count').counterUp({
             delay: 10,
@@ -508,7 +494,7 @@ if (isset($_POST['logout'])) {
     <script src="js/jquery-3.6.2.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $("#slider").owlCarousel({
                 items: 1,
                 nav: true,
