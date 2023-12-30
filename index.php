@@ -1,4 +1,4 @@
-<?php
+<?php //hello
 
 include "database/connect.php";
 
@@ -7,7 +7,7 @@ session_start();
 if (isset($_POST['logout'])) {
     session_unset();
     session_destroy();
-    header("location:login.php");  //hello
+    header("location:login.php"); 
 }
 
 ?>
