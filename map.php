@@ -22,21 +22,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- ICON PACK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="body">
@@ -45,8 +39,7 @@
         <nav class="navbar navbar-expand-lg navbar-success bg-custom">
             <div id="nav-container" class="container">
                 <a class="navbar-brand" id="logo" href="#">SAFARI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul class="navbar-nav">
@@ -66,11 +59,10 @@
                         <a class="nav-link" href="animal.php">Animals</a>
                     </li>
                     <form method="POST">
-                            <button type="submit" name="logout" class="nav-link text-font">Logout</button>
+                        <button type="submit" name="logout" class="nav-link text-font">Logout</button>
                     </form>
                 </ul>
-                <a class="nav-link" href="ticket.php"><button
-                        class="btn btn-warning text-primary fw-bold">Ticket</button></a>
+                <a class="nav-link" href="ticket.php"><button class="btn btn-warning text-primary fw-bold">Ticket</button></a>
             </div>
         </nav>
     </div>
@@ -83,11 +75,25 @@
         </div>
     </div>
 
-    <div class="container mt-4 mb-5" height="300px">
-        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.523/build/spline-viewer.js"></script>
-        <spline-viewer hint loading-anim-type="spinner-small-light"
-            url="https://prod.spline.design/508wRdZTDkQZjQNi/scene.splinecode"></spline-viewer>
+
+
+    <div class="container mt-4 ">
+        <div>
+            <div class="d-flex justify-content-center">
+                <h5 class="text-font fw-bolder text-warning"><span class="fa fa-exclamation-circle text-warning"></span> INSTRUCTIONS</h5>
+            </div>
+            <ul class="text-font-2 d-flex justify-content-center">
+                <p>To explore the Safari Zoo map, Press <kbd class="arrow-icon">←</kbd> <kbd class="arrow-icon">↑</kbd> <kbd class="arrow-icon">↓</kbd> <kbd class="arrow-icon">→</kbd> keyboard keys.</l>
+                </p>
+            </ul>
+        </div>
     </div>
+
+
+    <!-- <div class="container mt-4 mb-5" height="300px">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.523/build/spline-viewer.js"></script>
+        <spline-viewer hint loading-anim-type="spinner-small-light" url="https://prod.spline.design/508wRdZTDkQZjQNi/scene.splinecode"></spline-viewer>
+    </div> -->
 </body>
 
 </html>
