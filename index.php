@@ -28,17 +28,17 @@ if (isset($_POST['logout'])) {
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- JS -->
-    <script src="js/script.js"></script>
-
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    
-
 
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,10 +59,10 @@ if (isset($_POST['logout'])) {
 <body class="body">
     <div class="container">
         <br>
-        <nav class="navbar navbar-expand-lg navbar-success bg-custom">
-            <div id="nav-container" class="container">
-                <a class="navbar-brand" id="logo" href="">SAFARI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+            <div class="container" style="margin-left: 20px; margin-right: 20px;">
+                <a class="navbar-brand" id="logo" href="#">SAFARI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">

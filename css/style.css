@@ -33,8 +33,6 @@
 
 /* Responsive Navbar */
 
- 
-
 #nav-container {
   padding: 0px 33px;
 }
@@ -110,7 +108,7 @@
   }
 }
 
-/*  */
+/* Owl Slider */
 #slider.owl-theme .owl-nav {
   position: absolute;
   top: 50%;
